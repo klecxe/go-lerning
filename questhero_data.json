@@ -1,0 +1,94 @@
+{
+  "player": {
+    "level": 1,
+    "totalXP": 0,
+    "gold": 100,
+    "streak": 0,
+    "lastDaily": "0001-01-01T00:00:00Z"
+  },
+  "quests": [
+    {
+      "id": 1,
+      "type": "daily",
+      "title": "Медитировать 10 минут",
+      "description": "Через приложение или просто",
+      "deadline": "2026-03-10T00:00:00+04:00",
+      "xp": 30,
+      "gold": 6,
+      "completed": false
+    },
+    {
+      "id": 2,
+      "type": "daily",
+      "title": "Выпить 2 литра воды",
+      "description": "Следить за гидратацией весь день",
+      "deadline": "2026-03-10T00:00:00+04:00",
+      "xp": 40,
+      "gold": 8,
+      "completed": false
+    },
+    {
+      "id": 3,
+      "type": "daily",
+      "title": "Сделать уборку в комнате",
+      "description": "Полная уборка рабочего места",
+      "deadline": "2026-03-10T00:00:00+04:00",
+      "xp": 40,
+      "gold": 8,
+      "completed": false
+    },
+    {
+      "id": 4,
+      "type": "daily",
+      "title": "Изучить новый навык 20 минут",
+      "description": "Кодинг, гитара, рисование и т.д.",
+      "deadline": "2026-03-10T00:00:00+04:00",
+      "xp": 50,
+      "gold": 10,
+      "completed": false
+    },
+    {
+      "id": 5,
+      "type": "weekly",
+      "title": "Пройти 50 км за неделю",
+      "description": "Бег/ходьба/велосипед",
+      "deadline": "2026-03-15T04:00:00+04:00",
+      "xp": 220,
+      "gold": 45,
+      "completed": false
+    },
+    {
+      "id": 6,
+      "type": "weekly",
+      "title": "Приготовить 5 разных блюд",
+      "description": "Экспериментировать на кухне",
+      "deadline": "2026-03-15T04:00:00+04:00",
+      "xp": 180,
+      "gold": 35,
+      "completed": false
+    },
+    {
+      "id": 7,
+      "type": "monthly",
+      "title": "Выучить 50 новых слов",
+      "description": "Или грамматику языка",
+      "deadline": "2026-04-01T00:00:00+04:00",
+      "xp": 450,
+      "gold": 90,
+      "completed": false
+    },
+    {
+      "id": 8,
+      "type": "daily",
+      "title": "Go learn",
+      "description": "1 час занятия на GO",
+      "deadline": "2026-03-10T00:00:00+04:00",
+      "xp": 100,
+      "gold": 100,
+      "completed": false
+    }
+  ],
+  "lastDailyReset": "2026-03-09T19:14:04.5349569+04:00",
+  "lastWeeklyReset": "2026-03-09T19:14:04.5349569+04:00",
+  "lastMonthlyReset": "2026-03-09T19:14:04.5349569+04:00"
+}
