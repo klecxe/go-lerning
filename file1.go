@@ -1,15 +1,13 @@
 package main
 import "fmt"
-func main () {
-    arr := [100]int {}
-    var a int
-    fmt.Scan(&a)
-   for i := 0; i < a; i++{
-        fmt.Scan(&arr[i])
-               }
-       for inx,elem := range arr{
-           if inx % 2 == 0 && elem != 0 {
-           fmt.Printf("%d ", elem)
-           }
-   }
+func main() {
+    var age  = 41
+    var isEnabled = false
+    var message = "Hello"
+    var koef = 1.2
+ 
+    fmt.Printf("age type: %T\n", age) 
+    fmt.Printf("isEnabled type: %T\n", isEnabled)  
+    fmt.Printf("message type: %T\n", message)   
+    fmt.Printf("koef type: %T\n", koef)  
 }
