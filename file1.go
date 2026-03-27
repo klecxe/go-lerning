@@ -1,9 +1,13 @@
 package main
 import "fmt"
 func main() {
-    var isAlive bool = true
-    var isEnabled bool = false
+    var age  = 41
+    var isEnabled = false
+    var message = "Hello"
+    var koef = 1.2
  
-    fmt.Println("isAlive: ", isAlive)
-    fmt.Println("isEnabled: ", isEnabled)
+    fmt.Printf("age type: %T\n", age) 
+    fmt.Printf("isEnabled type: %T\n", isEnabled)  
+    fmt.Printf("message type: %T\n", message)   
+    fmt.Printf("koef type: %T\n", koef)  
 }
